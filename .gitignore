@@ -1,3 +1,4 @@
+*.class
 rest/target/
 common/target/
 standalone/target/
@@ -8,4 +9,3 @@ hs_err_pid*
 .idea
 *.iml
 *.ipr
-*.class
