@@ -56,6 +56,7 @@ public class ConsumeListenerTest extends AbstractTest {
   /**
    * Зачисления большей суммы и (сразу же) снятие большой суммы
    */
+
   @Test
   public void manyMessagesTest() throws Exception {
     //Очистка записей тестового юзера
@@ -86,7 +87,7 @@ public class ConsumeListenerTest extends AbstractTest {
     assert (mess4 != null);
     assert (getMessageDto(mess4).getMessStatus() == MessStatus.SUCCESS);
     //Проверка баланса
-    assert (Float.compare(getMessageDto(mess4).getBank(), 130f) == 0);
+    assert (Float.compare(getMessageDto(mess4).getBank(), 100f) == 0);
   }
 
   /**

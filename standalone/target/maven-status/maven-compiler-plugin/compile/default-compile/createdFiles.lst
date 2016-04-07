@@ -1,6 +1,0 @@
-com/peterservice/autopay/service/BaseService.class
-com/peterservice/autopay/model/Topic.class
-com/peterservice/autopay/listener/ConsumerListener.class
-com/peterservice/autopay/service/IBaseService.class
-com/peterservice/autopay/Main.class
-com/peterservice/autopay/repository/TopicRepository.class
